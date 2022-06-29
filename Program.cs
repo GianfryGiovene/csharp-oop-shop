@@ -28,4 +28,4 @@ Console.WriteLine("Nome prodotto: {0}", newProduct.ProductName);
 Console.WriteLine("Descrizione prodotto:\n{0}", newProduct.ProductDescription);
 Console.WriteLine("Prezzo prodotto: {0}", newProduct.ProductPrice);
 Console.WriteLine("Nome esteso prodotto: {0}", newProduct.GetExtendedName());
-Console.WriteLine(newProduct.GetCodeWithPadLeft());
+Console.WriteLine("Codice esteso: {0}", newProduct.GetCodeWithPadLeft());

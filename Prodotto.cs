@@ -67,17 +67,17 @@ namespace csharp_oop_shop
         /*BONUS: create un metodo che restituisca il codice con un pad left di 0 per arrivare a 8 caratteri(ad esempio codice 91 diventa 00000091, mentre codice 123445567 resta come è)
         */
 
-        //public string GetCodeWithPadLeft()
-        //{
-        //    string productCode = this.productCode.ToString();
+        public string GetCodeWithPadLeft()
+        {
+            string productCode = this.productCode.ToString();
 
-        //    while(productCode.Length < 8)
-        //    {
-        //        productCode = "0" + productCode;
-        //    }
-            
-        //    return productCode;
-        //}
+            while (productCode.Length < 8)
+            {
+                productCode = "0" + productCode;
+            }
+
+            return productCode;
+        }
 
     }
 }
